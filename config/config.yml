@@ -1,0 +1,10 @@
+app:
+  name: 'work'
+  version: '1.0.0'
+
+logger:
+  log_level: 'debug'
+  rollbar_env: 'work'
+
+postgres:
+  pool_max: 2
